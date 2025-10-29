@@ -4,47 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Republican Candidate Cleidy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link href="favicon.png" rel="icon" type="favicon">
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="container">
-      <a class="navbar-brand" href="#">Cleidy 2025</a>
-      <div class="navbar-nav">
-        <a class="nav-link" href="#background">Background</a>
-        <a class="nav-link" href="#role">Role</a>
-        <a class="nav-link" href="#merch">Official Merch</a>
-        <a class="nav-link" href="#mayor-gallery">Mayor Gallery</a>
-      </div>
-    </div>
-  </nav>
-
   <!-- Header -->
   <header>
     <h1>Republican</h1>
-    <a href="#" class="btn-link mx-2 my-1">Candidate Cleidy</a>
+    <h2>Candidate Cleidy</h2>
     <img src="profile.png" alt="Cleidy Profile">
-    <p><em>“Leadership with Integrity and Vision.”</em></p>
+    <p><em>“A Newer New York”</em></p>
   </header>
 
   <!-- Background Section -->
   <section id="background">
     <h3>Background</h3>
-    <p>Cleidy is a driven leader who blends passion and precision in every project. With a foundation in communication and design, she’s known for fostering collaboration and ensuring high-quality results. Her commitment to innovation and teamwork sets her apart as a leader who inspires progress and unity.</p>
+    <p>???</p>
   </section>
 
   <!-- Role Section -->
   <section id="role">
     <h3>Role</h3>
-    <p>As the editor of our team, I ensure all details—from visuals to code—are polished and aligned. My role involves maintaining quality, providing feedback, and supporting every team member. I focus on precision, collaboration, and ensuring our work reflects professionalism and unity.</p>
+    <p>???</p>
   </section>
 
-  <!-- Official Merch Section -->
+  <!-- Merch Section -->
   <section id="merch">
     <h3>Official Merch</h3>
-    <p>Show your support for Candidate Cleidy with our exclusive campaign merchandise! Every purchase fuels our mission and spreads our message of leadership and dedication.</p>
+    <p>Support our campaign with cute and stylish merchandise! Show your pride for Cleidy and our message of teamwork and leadership.</p>
     <div class="merch-gallery">
       <img src="shirt.png" alt="Campaign Shirt">
       <img src="cap.png" alt="Campaign Cap">
@@ -55,7 +43,7 @@
   <!-- Mayor Gallery Section -->
   <section id="mayor-gallery">
     <h3>Mayor Gallery</h3>
-    <p>A look at our moments with the mayor — inspiring, community-driven, and filled with purpose.</p>
+    <p>Here are some special moments with the mayor—full of smiles, teamwork, and inspiration!</p>
     <div class="gallery">
       <img src="mayor1.png" alt="Mayor Event 1">
       <img src="mayor2.png" alt="Mayor Event 2">
@@ -66,31 +54,8 @@
 
   <!-- Footer -->
   <footer>
-    <p>For more insights, visit my 
-      <a href="https://rominar9.github.io/JuniorPortfolio/" target="_blank">Junior Portfolio</a>.
-    </p>
-    <a href="https://rominar9.github.io/InfyAppTeamTemplate/" class="btn-link">Back to Website</a>
+    <p>Visit my <a href="https://rominar9.github.io/JuniorPortfolio/" target="_blank">Junior Portfolio</a>.</p>
+    <a href="https://rominar9.github.io/InfyAppTeamTemplate/">Back to Website</a>
   </footer>
-
-  <!-- Back to Top Button -->
-  <button id="backToTopBtn" title="Back to top">↑</button>
-
-  <script>
-    // Reveal animation on scroll
-    const sections = document.querySelectorAll("section");
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add("visible");
-      });
-    }, { threshold: 0.2 });
-    sections.forEach(section => observer.observe(section));
-
-    // Back to Top Button behavior
-    const topBtn = document.getElementById("backToTopBtn");
-    window.onscroll = () => {
-      topBtn.style.display = (document.documentElement.scrollTop > 300) ? "block" : "none";
-    };
-    topBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-  </script>
 </body>
 </html>
